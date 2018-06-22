@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="puzzle.css">
+    <script src= "puzzle.js"></script>
+    <title>VAPORPuzzle</title>
+
+  </head>
+  <body onload="main()">
+      <div class="mainslider">
+        <img onclick="displayID(this)" src="big_mouth.jpg" class="slide1" id="img1" width="200px" height="150px">
+        <img onclick="displayID(this)" src="coyote.jpg" class="slide2" id="img1" width="200px" height="150px">
+        <img onclick="displayID(this)" src="futurama.jpg" class="slide3" id="img1" width="200px" height="150px">
+        <img onclick="displayID(this)" src="lilo.jpg" class="slide1" id="img1" width="200px" height="150px">
+        <img onclick="displayID(this)" src="padre_de_familia.jpg" class="slide2" id="img1" width="200px" height="150px">
+        <img onclick="displayID(this)" src="south-park.jpg" class="slide3" id="img1" width="200px" height="150px">
+        <img onclick="displayID(this)" src="spacejam.jpg" class="slide1" id="img1" width="200px" height="150px">
+        <img onclick="displayID(this)" src="vaca_pollo.jpg" class="slide2" id="img1" width="200px" height="150px">
+
+
+
+      </div>
+      <center><p id="tittle">  P U Z Z L E </p><center/>
+        <p id="timer"> T I M E <span id="counter"> 0:0:0</span></p>
+        <button class="button" onclick="showhighscore()">SHOW HIGHSCORE</button>
+      <table>
+      <center>
+          <img id="imageType" src="lilo.jpg" width="500px" height="300px">
+          <tr>
+            <td onclick="Mov1()"><img class="table" src="lilo1.jpg" id="pos1"></td>
+            <td onclick="Mov2()"><img class="table" src="lilo2.jpg" id="pos2"></td>
+            <td onclick="Mov3()"><img class="table" src="lilo3.jpg" id="pos3"></td>
+          </tr>
+          <tr>
+            <td onclick="Mov4()"><img class="table" src="lilo4.jpg" id="pos4"></td>
+            <td onclick="Mov5()"><img class="table" src="lilo5.jpg" id="pos5"></td>
+            <td onclick="Mov6()"><img class="table" src="lilo6.jpg" id="pos6"></td>
+          </tr>
+          <tr>
+            <td onclick="Mov7()"><img class="table" src="lilo7.jpg" id="pos7"></td>
+            <td onclick="Mov8()"><img class="table" src="lilo8.jpg" id="pos8"></td>
+            <td onclick="Mov9()"><img class="table" src="white.jpg" id="pos9"></td>
+          </tr>
+        </table>
+      <center/>
+      <div id="slider"></div>
+  </body>
+</html>

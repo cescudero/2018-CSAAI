@@ -1,0 +1,46 @@
+<!--
+    HTML5 code of Video-Filter Practice.
+    Made by Felipe Sandoval for CSAAI.
+-->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<script src="filtro.js"></script>
+		<link rel="stylesheet" href="filtro.css"/>
+    <title> VIDEO FILTER ON CANVAS </title>
+
+  </head>
+
+	<body>
+		<!-- <div class="mainslider">
+			<center>
+			<img onclick="doyellow1(this)" class="slide1" id="amazonas" src="fondo-amazonas.jpg" width="200px" height="140px">
+			<img onclick="doyellow2(this)" class="slide2" id="mar" src="fondo-mar.jpg" width="200px" height="140px">
+			<img onclick="doyellow3(this)" class="slide3" id="selva" src="fondo-selva.jpg" width="200px" height="140px">
+			<img onclick="doyellow4(this)" class="slide4" id="panama" src="fondo-panama.jpg" width="200px" height="140px">
+			</center> -->
+		</div>
+		<img class="cromabg" id="backgroundimg" src="fondo-amazonas.jpg" style="visibility: hidden;">
+		<img class="cromabg" id="backgroundimg2" src="fondo-mar.jpg" style="visibility: hidden;">
+		<img class="cromabg" id="backgroundimg3" src="fondo-panama.jpg" style="visibility: hidden;">
+		<img class="cromabg" id="backgroundimg4" src="fondo-selva.jpg" style="visibility: hidden;">
+		<button class="yellowcroma" onclick="doyellow1()"> CROMA </button>
+		<button class="bluecroma" onclick="doblue()"> FILTRO AZUL</button>
+		<button class="greencroma" onclick="dogreen()"> Blanco & Negro </button>
+		<center>
+			<h1 id="title"> VIDEO FILTER ON CANVAS </h1>
+		</center>
+
+		<canvas id=myCanvas></canvas>
+
+		<video id="myVideo" controls>
+			<source src="video3.mp4" type="video/mp4">
+		</video>
+
+	</body>
+
+</html>

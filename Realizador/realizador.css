@@ -1,0 +1,93 @@
+@font-face{
+  font-family: cont;
+  src: url("controls.ttf");
+}
+@font-face{
+  font-family: ache;
+  src: url("PLEXB.ttf");
+}
+@font-face{
+  font-family: led;
+  src: url("led.ttf");
+}
+body{
+  background-color : #74bfea;
+}
+h1{
+  text-align: center;
+  font-size: 100px;
+  font-family: ache;
+  color: green;
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: ache;
+  color: green;
+}
+
+canvas{
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+button{
+
+    bottom: 20%;
+    border-width: 4px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+#text{
+  text-align: center;
+  font-size: 20px;
+  font-family: led;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+#play-pause{
+  font-family: cont;
+  font-size: 25px;
+  color: black;
+  border: green 6px;
+  cursor: pointer;
+}
+
+#video-controls-video{
+  text-align: center;
+}
+
+#mute{
+  font-family: cont;
+  font-size: 25px;
+  color: black;
+  border: green 6px;
+  cursor: pointer;
+}
+
+#volumen{
+  margin-top: 1%;
+  width: 50px;
+  height: 3px;
+  cursor: pointer;
+}
+
+#barra_tiempo{
+  margin-top: 1%;
+  width: 50px;
+  height: 3px;
+  cursor: pointer;
+}
+#cam-aux{
+  text-align: center;
+}
